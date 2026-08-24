@@ -1,0 +1,22 @@
+#tudo que estiver entre {} é para ser substituido por uma palavra:
+
+1. Para clonar um repositório remoto no seu repositório:
+    git add origin {link}
+
+2. Para enviar as coisas do seu repositório local para o remoto, pela primeira vez:
+    git psuh -u origin main
+
+3. Para trocar de galho:
+    git checkout {branch}
+
+4. Para criar um branch:
+    git branch {nome}
+
+5. Para criar e mudar para o branch:
+    git branch -b {nome}
+
+6. Para ir a força descartando as alterações feitas em um branch:
+    git checkout - f {nome do destino}
+
+7. Para criar um branch que tem suas raízes especificadas:
+    git branch {novo_nome} {origem}
