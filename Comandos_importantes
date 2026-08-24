@@ -34,3 +34,33 @@
     git checkout {hash}
 
 12. Para começar a trabalhar a partir daí 
+
+13. Para mesclar dois branchs:
+    As coisas serão traziadas para o branch em que você está
+    git merge {branch que você quer trazer as atualizações}
+
+14. Para voltar em um snapshot do tempo, apagar os commits que vieram depois,
+    Mas deixar as mudanças no working directory(staged changes, analogo ao add)
+    git reset --soft {commit - hash}
+
+15. Para apagar todos os snapshots depois de um commit específico:
+    git reset --hard {commit hash}
+
+16. Para dar um reset que só deixa as mudanças unstageds(não added):
+    git reset {commit hash}
+    git reset --mixed {commit hash}
+
+17. Para reverter um commit que você fez mas manter o log dele:
+    git revert {commit hash}
+
+18. Para salvar temporiaramente como staged as coisas que você está fazendo:
+    git stash
+
+19. Para ver a lista de nomes de stahs:
+    git stash list\ 
+
+20. Para resgatar o que você salvou com o stash:
+    git stash apply {nome da stash}
+
+    $$ No final das contas você pode simplesmente usar uma GUI para mexer com o git
+    $$ Mas até agora entendemos o por de trás das cenas 
