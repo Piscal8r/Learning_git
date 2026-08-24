@@ -20,3 +20,8 @@
 
 7. Para criar um branch que tem suas raízes especificadas:
     git branch {novo_nome} {origem}
+8. Para trocar o seu nome:
+    git config --global user.name {Nome}
+9. Para trocar o seu nome:
+    git config --global user.email {email}
+    

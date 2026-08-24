@@ -3,5 +3,6 @@
 int main() { 
     printf("Hello, caralho, i'm learning git");
     printf("Caralho essa parada de git é maneirinha");
+    pritnf("Bora estudar porra");
     return 0;
 }
